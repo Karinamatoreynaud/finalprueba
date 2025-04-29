@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jugueteria Cosmica</title>
+        <link rel="stylesheet" href="SCSS/main.css"> 
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__container">
+                <a href="index.html">
+                    <img src="/assets/images/Proyecto-logo.png" alt="Logo Jugueteria Cosmica" class="header__logo">
+                </a>
+                <h1 class="main__title">Bienvenidos a Jugueteria Cosmica</h1>
+                <nav class="header__nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Inicio</a></li>
+                        <li class="nav__item"><a href="alta.html" class="nav__link">Alta</a></li>
+                        <li class="nav__item"><a href="contacto.html" class="nav__link">Contacto</a></li>
+                        <li class="nav__item"><a href="nosotros.html" class="nav__link">Nosotros</a></li>
+                    </ul>
+                    <form class="header__search-form">
+                        <input type="text" class="header__search-input" placeholder="Buscar juguetes...">
+                        <button type="submit" class="header__search-button">🔍</button>
+                    </form>
+                </nav>
+            </div>
+        </header>
+
+    <main>
+        <section class="container"> <!-- nuevo -->
+            <h2 class="underline">Mes de LEGO - Más Vendidos</h2>
+            <div class="cards__container">
+                <div class="card__grid col col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/LEGO/batallaHogwarts.webp" alt='batalla hogwarts' class="card__image">
+                        </div>
+                        <div class="card__title">
+                            <h3>¡Batalla Hogwarts!</h3>
+                        </div>
+                        <div class="card__price">
+                            <p>$990</p>
+                        </div>
+                        <div class="card__description">
+                            <p>De las batallas más épicas de Harry Potter, ¡ahora en versión LEGO!</p>
+                        </div>
+                        <div class="card__button">
+                            <button onclick="alert('Producto agregado al carrito')">¡Comprar!</button>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="card__grid col col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/LEGO/galaxia.webp" alt='Puzzle Galaxia' class="card__image">
+                        </div>
+                        <div class="card__title">
+                            <h3>¡Puzzle!</h3>
+                        </div>
+                        <div class="card__price">
+                            <p>$1300</p>
+                        </div>
+                        <div class="card__description">
+                        <p>Diversión en familia asegurada, este puzzle desafiante los mantendrá activos e intrigantes con su resultado. ¡Comprobalo!</p>
+                        </div>
+                        <div class="card__button">
+                            <button onclick="alert('Producto agregado al carrito')">¡Comprar!</button>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="card__grid col col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/LEGO/LEGO.jpg" alt='LEGO' class="card__image">
+                        </div>
+                        <div class="card__title">
+                            <h3>¡Batman!</h3>
+                        </div>
+                        <div class="card__price">
+                            <p>$880</p>
+                        </div>
+                        <div class="card__description">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat aperiam quam saepe quaerat at optio praesentium incidunt in quo excepturi?</p>
+                        </div>
+                        <div class="card__button">
+                            <button onclick="alert('Producto agregado al carrito')">¡Comprar!</button>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="card__grid col col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/LEGO/set1000piezas.webp" alt='set 1000 piezas' class="card__image">
+                        </div>
+                        <div class="card__title">
+                            <h3>¡Set 1000 piezas!</h3>
+                        </div>
+                        <div class="card__price">
+                            <p>$1500</p>
+                        </div>
+                        <div class="card__description">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat aperiam quam saepe quaerat at optio praesentium incidunt in quo excepturi?</p>
+                        </div>
+                        <div class="card__button">
+                            <button onclick="alert('Producto agregado al carrito')">¡Comprar!</button>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container"> <!-- nuevo -->
+        <!-- <section class="section__pixar"> -->
+            <h2 class="underline">Pixar</h2>
+            <div class="cards__container">
+                <div class="card__grid col col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/Pixar/pixar-slinki.png" alt="pixar-slinki" class="card__image">
+                        </div>
+                        <div class="card__title">
+                            <h3>Muñeco de acción parlante Slinki</h3>
+                        </div>
+                        <div class="card__price">
+                            <p>$450</p>
+                        </div>
+                        <div class="card__button">
+                            <button onclick="alert('Producto agregado al carrito')">¡Comprar!</button>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="card__grid col col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/Pixar/pixar-coleccion-cars.png" alt="colección cars" class="card__image">
+                        </div>
+                        <div class="card__title">
+                            <h3>Set de cars</h3>
+                        </div>
+                        <div class="card__price">
+                            <p>$850</p>
+                        </div>
+                        <div class="card__button">
+                            <button onclick="alert('Producto agregado al carrito')">¡Comprar!</button>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="card__grid col col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/Pixar/peluche-sulley.png" alt="Peluche Sulley" class="card__image">
+                        </div>
+                        <div class="card__title">
+                            <h3>Peluche de Sulley</h3>
+                        </div>
+                        <div class="card__price">
+                            <p>$700</p>
+                        </div>
+                        <div class="card__button">
+                            <button onclick="alert('Producto agregado al carrito')">¡Comprar!</button>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="card__grid col col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/Pixar/cocheteledirigido-ts.png" alt="Coche teledirigido ToyStory" class="card__image">
+                        </div>
+                        <div class="card__title">
+                            <h3>Coche teledirigido de ToyStory</h3>
+                        </div>
+                        <div class="card__price">
+                            <p>$1100</p>
+                        </div>
+                        <div class="card__button">
+                            <button onclick="alert('Producto agregado al carrito')">¡Comprar!</button>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container"> <!-- nuevo -->
+        <!-- <section class="section__marvel"> -->
+            <h2 class="underline">Marvel</h2>
+            <div class="cards__container">
+                <div class="card__grid col col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/marvel/Blackpanter.png" alt="black panter" class="card__image">
+                        </div>
+                        <div class="card__title">
+                            <h3>Figura de acción parlante - Black Panter</h3>
+                        </div>
+                        <div class="card__price">
+                            <p>$560</p>
+                        </div>
+                        <div class="card__button">
+                            <button onclick="alert('Producto agregado al carrito')">¡Comprar!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__grid col col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/marvel/control remoto interactivo.png" alt="Control remoto interactivo araña" class="card__image">
+                        </div>
+                        <div class="card__title">
+                            <h3>Control remoto interactivo - Spiderman</h3>
+                        </div>
+                        <div class="card__price">
+                            <p>$990</p>
+                        </div>
+                        <div class="card__button">
+                            <button onclick="alert('Producto agregado al carrito')">¡Comprar!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__grid col col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/marvel/disfraz.png" alt="disfraz Iron Man" class="card__image">
+                        </div>
+                        <div class="card__title">
+                            <h3>Disfraz infantil de Iron Man</h3>
+                        </div>
+                        <div class="card__price">
+                            <p>$1200</p>
+                        </div>
+                        <div class="card__button">
+                            <button onclick="alert('Producto agregado al carrito')">¡Comprar!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__grid col col-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/marvel/guanteretropusor.png" alt="guanteretropulsor" class="card__image">
+                        </div>
+                        <div class="card__title">
+                            <h3>Guante de Iron Man con retropulsor</h3>
+                        </div>
+                        <div class="card__price">
+                            <p>$670</p>
+                        </div>
+                        <div class="card__button">
+                            <button class="btn">¡Comprar!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container"> <!-- nuevo -->
+        <!-- <section class="section__porEdad"> -->
+            <h2 class="underline">Regalos por edad</h2>
+            <div class="cards__container">
+                <div class="card__grid col-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/edades/0-2.avif" alt="0-2 años" class="card__image">
+                        </div>
+                        <h3 class="card__title">0-2 años</h3>
+                    </div>
+                </div>
+                <div class="card__grid col-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/edades/3-4.avif" alt="3-4 años" class="card__image">
+                        </div>
+                        <h3 class="card__title">3-4 años</h3>
+                    </div>
+                </div>
+                <div class="card__grid col-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/edades/5-7.png" alt="5-7 años" class="card__image">
+                        </div>
+                        <h3 class="card__title">5-7 años</h3>
+                    </div>
+                </div>
+                <div class="card__grid col-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/edades/8-10.png" alt="8-10 años" class="card__image">
+                        </div>
+                        <h3 class="card__title">8-10 años</h3>
+                    </div>
+                </div>
+                <div class="card__grid col-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/edades/10-13.png" alt="11-13 años" class="card__image">
+                        </div>
+                        <h3 class="card__title">11-13 años</h3>
+                    </div>
+                </div>
+                <div class="card__grid col-2">
+                    <div class="card__content">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/edades/+14.png" alt="+14 años" class="card__image">
+                        </div>
+                        <h3 class="card__title">+14 años</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container"> <!-- nuevo -->
+        <!-- <section class="section__mas"> -->
+            <h2 class="underline">¡Y muchas cosas más!</h2>
+            <div class="cards__container1">
+                <div class="card__grid">
+                    <div class="card__content">
+                        <a href="#">
+                        <div class="card__imageContainer">
+                            <img src="assets/images/ymas.jpeg" alt="Y más" class="card__image">
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Nuestras redes sociales</h3>
+                <ul class="footer-list">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Whatsapp</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Novedades</h3>
+                <form class="footer-form" action="#">
+                    <input class="email" type="email" placeholder="Ingresa tu correo" required>
+                    <button class="button" type="submit">Suscribite</button>
+                </form>
+            </div>
+            <div class="footer-section">
+                <h3>Paginas y Avisos Legales</h3>
+                <ul>
+                    <li><a href="#">Condiciones de compra</a></li>
+                    <li><a href="#">Politica de privacidad</a></li>
+                    <li><a href="#">Mapa del sitio</a></li>
+                </ul>
+            </div>  
+            <div class="footer-section">
+                <h3>Informacion de contacto</h3>
+                <ul>
+                    <li><a href="#">Descripcion de la tienda</a></li>
+                    <li><a href="#">Localizacion</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-p">&copy; 2025 Juguetería Cósmica. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="assets/JS/main.js"></script>
+</body>
+</html>

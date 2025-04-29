@@ -1,0 +1,56 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    // font-family: ;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+}
+
+main {
+    display: flex;//nuevo
+    flex-direction: column; //nuevo
+    margin-top: 10rem;
+    width: 1200px; //nuevo
+}
+
+h3 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.card__title h2, .card__price p {
+    margin: 0;
+    padding: 0;
+}
+
+//nuevo
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    // color: ;
+}
+
+// nuevo ale
+.container{
+    margin: auto;
+
+    @include create-container-width();
+}
+@mixin create-container-width () {
+    @each $bp, $w in $grid-breakpoints {
+        @media (min-width: $w) {
+            max-width: map-get($grid-width, $bp); // establezco un max-width
+
+            // para cualquier div en base a breakpoints
+        }
+    }
+}
